@@ -1,0 +1,8 @@
+class GreaterThnEqual{
+public static void main (String [] args)
+{
+int a = 10, b=30;
+boolean res = b>=a;
+System.out.println(res);
+}
+}

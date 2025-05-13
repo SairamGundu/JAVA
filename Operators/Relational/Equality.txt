@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        
+        int a = 10 , b =20;
+        boolean res = a==b;
+        System.out.println(res);
+        
+        a= 20;
+        res = a==b;
+        System.out.println(res);
+        
+        a= 'b'; b= 98;
+        res = a==b;
+        System.out.println(res);
+      
+        
+    }
+}
