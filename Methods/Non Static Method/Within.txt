@@ -1,0 +1,8 @@
+class Within{
+public void add(){
+System.out.println("I am Add");
+}
+public static void main(String [] Args){
+add();
+}
+}

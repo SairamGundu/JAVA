@@ -1,0 +1,13 @@
+class Sample{
+public static void main (String [] args)
+{
+System.out.print("Main Starts");
+square(10);
+System.out.print("Main Ends");
+}
+public static int square(int a)
+{
+int res = a * a;
+return res;
+}
+}
