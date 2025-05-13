@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class LargerNumber{
+public static void main(Stirng [] args)
+{
+
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter The First Number: ");
+int first = sc.nextInt();
+System.out.print("Enter The Second Number: ");
+int second = sc.nextInt();
+if (first>second){
+System.out.print(first " Number is greater than " + second);
+}
+else{
+System.out.print(second " Number is greater than " + first);
+}
+System.out.print("*****************");
+
+System.out.print("ThankYou");
+}
+
+
+
+}
